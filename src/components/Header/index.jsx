@@ -26,7 +26,7 @@ const Header = () => {
         <IconButton onClick={() => navigate('/user')}>
           <Person style={{ color: 'white' }} />
         </IconButton>
-        <IconButton>
+        <IconButton onClick={() => navigate('/cart')}>
           <ShoppingCart style={{ color: 'white' }} />
         </IconButton>
       </NavItems>
